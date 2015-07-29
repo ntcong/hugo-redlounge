@@ -33,8 +33,6 @@
   <!-- RSS -->
   <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 
-  {{ partial "syntaxhighlight.html" . }}
-
   {{ if .Params.lightbox }}
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/css/lightbox.css">
